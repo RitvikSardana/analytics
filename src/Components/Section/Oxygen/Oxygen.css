@@ -1,0 +1,32 @@
+.oxygenWrapper {
+    width: 350px;
+    background-color: rgba(255,255,255,0.6);
+    margin-bottom: 20px;
+    box-shadow: 0px 2px #afafaf;
+
+}
+
+.chartWrapper{
+    position: relative;
+}
+
+.averageWrapper{
+    position: absolute;
+    top:-23px;
+    right:0px;
+    /* border: 2px solid black; */
+    background-color: rgb(0,0,0,0.1);
+    padding:3px;
+    border-radius: 5px;
+}
+
+.averageWrapper >h5{
+    color:blue
+}
+
+@media screen and (min-width:768px) {
+    .oxygenWrapper {
+        width:500px;
+    }
+
+}

@@ -1,0 +1,40 @@
+.usersWrapper{
+    /* box-shadow: 1px 1px ; */
+    width:350px;
+    margin:0;
+    padding: 0;
+}
+
+
+.usersInfo{
+    padding: 30px 0px;
+    border-radius: 0px 0px 5px 5px ;
+    box-shadow: 0px 2px #afafaf;
+    background-color: rgba(255,255,255,0.7);
+
+}
+.usersInfo > *{
+    margin-top: 0px;
+}
+.usersInfo >h4 {
+    color: #2434A4;
+    font-size: 24px;
+}
+.usersInfo >h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width:768px) {
+    .usersWrapper {
+        width:500px
+    }
+    .usersInfo {
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
